@@ -13,13 +13,11 @@ h3 {
 
 #HTML {
     color : black;
-    background: rgb(219, 216, 221);
 }
 
 .times-italic {
     color : rgb(74, 143, 74);
     font-style: italic;
-    background: sandybrown;
     font-family: 'Times New Roman', Times, serif;
 }
 
