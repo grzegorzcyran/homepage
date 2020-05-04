@@ -1,0 +1,30 @@
+body {
+    background: #fefefe;
+}
+h2 {
+    color: #1460AA;
+}
+article {
+    color: gray;
+}
+h3 {
+    color: rgb(81, 187, 134);
+}
+
+#HTML {
+    color : black;
+    background: rgb(219, 216, 221);
+}
+
+.times-italic {
+    color : rgb(74, 143, 74);
+    font-style: italic;
+    background: sandybrown;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sans-under {
+    font-style: oblique;
+    font-family: sans-serif;
+    text-decoration: underline;
+}

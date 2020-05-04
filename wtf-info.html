@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+<script src="homepage-scripts.js" > </script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" >Strona startowa</a>
+        <a href="wtf-info.html" >WTF info</a>
+        <h1>Grzesiek Cyran - strona domowa</h1>
+    
+        <hr>
+    </header>
+    <main>
+        <section class="sans-under">
+            <h2>WTF</h2>
+            Na tej stronie będę zbierał wszystkie informacje o HTMLu, CSSach i JSie 
+            jakie wyniosę z WTFa jak i własnych poszukiwań w trakcie nauki.
+        </section>
+        <section>
+            <h2>Notatki z WTF</h2>
+            <article id="HTML">
+                <h3>HTML - znaczniki</h3>
+                <strong>main</strong> - przechowuje główną część strony, zwykle poza nim są wspólne dla całej witryny nagłówek i stopka
+                <br>
+                <strong>head</strong> - nagłówek strony z informacjami meta o czcionce, nazwie strony itp
+                <br>
+                <strong>header</strong> - widoczny nagłówek strony, może być powielany między stronami
+                <br>
+                <strong>footer</strong> - stopka, często wspólna dla  
+                <br>
+                <strong>br</strong> - przejście do nowej linii
+                <br>
+                <strong>a</strong> - przejście pod wskazany adres
+                <br>
+                <strong>section</strong> - sekcja strony, wydziela logiczną tematycznie całość 
+                <br>
+                <strong>article</strong> - mniejsza wydzielona treść
+                <br>
+                <strong>img</strong> - umożliwia czytanie obrazka    
+            </article>
+
+
+            <article id="CSS"> 
+                <h3>CSS - informacje</h3>
+                <h4>Stylowanie inline</h4>
+                Najprymitywniejsze (ale działa) - atrybut <b>style</b> w znaczniku HTMLa
+                <br>
+                <h4>Stylowanie w osobnym pliku</h4>
+                Plik .css załączany do strony za pomocą znacznika <b>link href</b> <br>
+                układ JSON <br>
+                kilka poziomów zagnieżdżeń:
+                <h5>id - identyfikator znacznika w CSS oznaczamy #</h5>
+                <h5>klasa w znaczniku dopisujemy class i nazwę a w css . i tą samą nazwę</h5>
+                <h5>możemy stylować po rodzajach tagów np h3 i wtedy dotyczy wszystkich h3</h5>
+            </article>
+
+            <article id="JS" class="times-italic"> 
+                <h3>JS - informacje</h3>
+                Nauka nowej technologii od zera nie jest prosta, nie wiem czy nie gorzej jednak jest jeśli znam już
+                jakąś
+                technologię
+            </article>
+        </section>
+        
+    </main>
+    <footer>
+        <hr>
+        Copyright by Grzegorz Cyran
+    </footer>
+</body>
+
+</html>
