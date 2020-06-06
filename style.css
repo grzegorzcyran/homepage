@@ -26,3 +26,26 @@ h3 {
     font-family: sans-serif;
     text-decoration: underline;
 }
+
+.left-notes {
+    width : 500px;
+    display: inline-block;
+}
+
+.right-picture {
+    width : 200px;
+    height: 200px;
+    display: inline-block;
+    resize: both;
+    /*box-sizing: border-box; */
+}
+
+.link {
+    font-size: larger;
+    width: 45px;
+    padding: 3px 2px;
+    border: 4px brown;
+    border-radius: 4px;
+    margin: 2px 4px ;
+    background: lightgrey;
+}
