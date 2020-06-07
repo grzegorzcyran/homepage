@@ -11,13 +11,13 @@
 
 <body>
     <header>
-        <a href="index.html" >Strona startowa</a>
-        <a href="wtf-info-html.html" >WTF HTML info</a>
-        <a href="wtf-info-css.html" >WTF CSS info</a>
-        <a href="wtf-info-js.html" >WTF JS info</a>
+        <a class="link link-main" href="index.html" >Strona startowa</a>
+        <a class="link" href="wtf-info-html.html" >WTF HTML info <!--<script>alert('Ja man!')</script> --></a>
+        <a class="link" href="wtf-info-css.html" >WTF CSS info</a>
+        <a class="link" href="wtf-info-js.html" >WTF JS info</a>
+        <a class="link" href="wtf-info-position.html" >WTF CSS position</a>
+        
         <h1>Grzesiek Cyran - strona domowa</h1>
-    
-        <hr>
     </header>
     <main>
         <section class="sans-under">
@@ -25,20 +25,39 @@
             Na tej stronie będę zbierał wszystkie informacje o HTMLu, CSSach i JSie 
             jakie wyniosę z WTFa jak i własnych poszukiwań w trakcie nauki.
         </section>
+
         <section>
             <h2>Notatki z WTF</h2>
             <article id="CSS"> 
-                <h3>CSS - informacje</h3>
-                <h4>Stylowanie inline</h4>
-                Najprymitywniejsze (ale działa) - atrybut <b>style</b> w znaczniku HTMLa
-                <br>
-                <h4>Stylowanie w osobnym pliku</h4>
-                Plik .css załączany do strony za pomocą znacznika <b>link href</b> <br>
-                układ JSON <br>
-                kilka poziomów zagnieżdżeń:
-                <h5>id - identyfikator znacznika w CSS oznaczamy #</h5>
-                <h5>klasa w znaczniku dopisujemy class i nazwę a w css . i tą samą nazwę</h5>
-                <h5>możemy stylować po rodzajach tagów np h3 i wtedy dotyczy wszystkich h3</h5>
+                <div class="left-picture">
+                    <img src="css.png" alt="Logo CSS" class="left-picture__img"/>
+                </div>
+                <div class="right-notes" >
+                    <h3>CSS - informacje</h3>
+                    <h4>Stylowanie inline</h4>
+                    Najprymitywniejsze (ale działa) - atrybut <b>style</b> w znaczniku HTMLa
+                    <br>
+                    <h4>Stylowanie w osobnym pliku</h4>
+                    Plik .css załączany do strony za pomocą znacznika <b>link href</b> <br>
+                    układ JSON <br>
+                    kilka poziomów zagnieżdżeń:
+                    <h5>id - identyfikator znacznika w CSS oznaczamy #</h5>
+                    <h5>klasa w znaczniku dopisujemy class i nazwę a w css . i tą samą nazwę</h5>
+                    <h5>możemy stylować po rodzajach tagów np h3 i wtedy dotyczy wszystkich h3</h5>
+
+                    
+                </div>
+                <div>
+                    <h3>BEM</h3>
+                    <p>
+                        <h4>BLOCK __ ELEMENT -- MODIFIER</h2>
+                        <p>
+                            Block np. "article" <br>
+                            Element np. "image" <br>
+                            Modifier np. "small"
+                        </p>
+                    </p>
+                </div>
             </article>
 
         </section>
